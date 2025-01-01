@@ -6,8 +6,8 @@ Sebagai seorang Big Data Analytics Intern di Kimia Farma, saya diberikan salah s
 
 ### Part 1 - Import Dataset ke BigQuery
 Berikut merupakan dataset yang akan diimport:
-[kf_kantor_cabang.csv](https://github.com/user-attachments/files/18286268/kf_kantor_cabang.csv)
-[kf_product.csv](https://github.com/user-attachments/files/18286267/kf_product.csv)
+1. [kf_kantor_cabang.csv](https://github.com/user-attachments/files/18286268/kf_kantor_cabang.csv)
+2. [kf_product.csv](https://github.com/user-attachments/files/18286267/kf_product.csv)
 
 
 ### Part 2 - Membuat Tabel Analisa
