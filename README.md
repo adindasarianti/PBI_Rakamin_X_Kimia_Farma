@@ -5,7 +5,7 @@ Project Based Internship merupakan sebuah program kolaborasi Rakamin Academy dan
 Sebagai seorang Big Data Analytics Intern di Kimia Farma, saya diberikan salah satu proyek utama yaitu mengevaluasi kinerja bisnis Kimia Farma dari tahun 2020 hingga 2023 dengan tugas-tugas sebagai berikut:
 
 ### Part 1 - Import Dataset ke BigQuery
-Pada tahapan pertama dilakukan import data ke Google BigQuery dengan data-data yang sudah saya cantumkan di folder dataset
+Pada tahapan pertama dilakukan import data ke Google BigQuery dengan data-data yang sudah saya cantumkan di folder dataset.
 
 ### Part 2 - Membuat Tabel Analisa
 Tabel analisa dibuat berdasarkan hasil aggregasi dari keempat tabel yang sudah diimport sebelumnya dengan kolom-kolom pada tabel sebagai berikut:
