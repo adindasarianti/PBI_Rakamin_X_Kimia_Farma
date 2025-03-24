@@ -13,20 +13,20 @@ SELECT
     p.price AS actual_price,
     ft.discount_percentage,
     CASE
-        WHEN ft.price <= 50000 THEN 0.10
-        WHEN ft.price > 50000 AND ft.price <= 100000 THEN 0.15
-        WHEN ft.price > 100000 AND ft.price <= 300000 THEN 0.20
-        WHEN ft.price > 300000 AND ft.price <= 500000 THEN 0.25
-        WHEN ft.price > 500000 THEN 0.30
+        WHEN p.price <= 50000 THEN 0.10
+        WHEN p.price > 50000 AND p.price <= 100000 THEN 0.15
+        WHEN p.price > 100000 AND p.price <= 300000 THEN 0.20
+        WHEN p.price > 300000 AND p.price <= 500000 THEN 0.25
+        WHEN p.price > 500000 THEN 0.30
     END AS persentase_gross_laba,
     p.price - (p.price * ft.discount_percentage) AS nett_sales,
     ft.price * (
         CASE
-            WHEN ft.price <= 50000 THEN 0.10
-            WHEN ft.price > 50000 AND ft.price <= 100000 THEN 0.15
-            WHEN ft.price > 100000 AND ft.price <= 300000 THEN 0.20
-            WHEN ft.price > 300000 AND ft.price <= 500000 THEN 0.25
-            WHEN ft.price > 500000 THEN 0.30
+            WHEN p.price <= 50000 THEN 0.10
+            WHEN p.price > 50000 AND p.price <= 100000 THEN 0.15
+            WHEN p.price > 100000 AND p.price <= 300000 THEN 0.20
+            WHEN p.price > 300000 AND p.price <= 500000 THEN 0.25
+            WHEN p.price > 500000 THEN 0.30
         END
     ) AS nett_profit,
     ft.rating AS rating_transaksi
